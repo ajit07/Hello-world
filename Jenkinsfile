@@ -9,6 +9,12 @@ stages{
       }
     }
   }
-  
+    stage ("test") {
+    steps {
+      script {
+        echo "This is test stage"
+      }
+    }
+  }
 }
 }
